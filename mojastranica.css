@@ -1,0 +1,58 @@
+/*moja strana css*/
+body {
+	color:lime;
+	margin:0;
+	padding:0;
+	background-image:url(../images/blackgreen.jpg);
+	background-size:cover;
+	background-attachment:fixed;
+}
+
+#wraper {
+	padding:0;
+	margin:auto;
+	width:950px;
+	height:auto;
+	background-color:black;
+}
+
+#header {
+	width:auto;
+	height:236px;
+	background-color:#8E1F2F;
+	text-align:center;
+	text-shadow:3px 2px #F0BC42;
+	color:black;
+	font-size:45px;
+	padding-top:0px 25px;
+	line-height:62px;
+}
+#mojaslika {
+	float:left;
+	margin:15px;
+}
+#header span:hover {
+	text-transform:uppercase;
+	word-spacing:20px;
+	letter-spacing:4px;
+}
+
+#wraper a{
+	color:yellow;
+	text-decoration:none;
+}
+#wraper a:hover {
+	color:red;
+}
+#follow {
+	position:fixed;
+	top:10%;
+	left:0;
+	width:50px;
+	height:100px;
+}
+.aside {
+	margin-left:95%;
+	width:auto;
+	text-align:right;
+}
