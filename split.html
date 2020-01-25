@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Split screen</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+	<link href="css/split.css" rel="stylesheet">
+	
+</head>
+<body>
+
+	<div class="row no-gutters">
+		<div class="col no-gutters">
+					<div class="leftside">
+<html>
+	<head>
+
+	<title>Login</title>
+	<link href="css/login.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/upper.png">
+
+</head>
+<body oncontextmenu="return false">
+		<div class="header">
+			<div>E-<span>sport</span></div>
+		</div>
+		<br>
+<form name="login">
+		<div class="login">
+				<input type="text" placeholder="Username" name="userid" required><br>
+				<input type="password" placeholder="Password" name="pswrd" required><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+</form>
+
+<script language="javascript">
+function check(form)
+{
+ 
+ if(form.userid.value == "nemanja" && form.pswrd.value == "12345")
+  {
+    window.location.assign('../Nemanja Stanojkovic/index.html')
+  }
+ else if(form.userid.value == "" && form.pswrd.value == "")
+  {
+	alert("Niste uneli username i/ili password !")
+  }
+ 
+ else if(form.userid.value == "jovica" && form.pswrd.value == "fkarsenal")
+  {
+    window.location.assign('../Sajt Jovica Filipovic/index.html')
+  }
+  else{
+  alert("Pogresan username i/ili password!")
+  }
+
+}
+</script>
+<div id="footer">
+Copyright &copy Nemanja Stanojkovic
+</div>
+</body>
+</html>
+					</div>
+		</div>
+		<div class="col no-gutters">
+					<div class="rightside">
+<html>
+	<head>
+		<link href="css/login2.css" rel="stylesheet">
+		<meta charset="UTF-8">
+		<title>Login</title>
+
+		</head>
+<body oncontextmenu="return false">
+  
+		<div class="header2">
+			<div>FK <span>Arsenal</span></div>
+		</div>
+		<br>
+<form name="login2">
+		<div class="login2">
+				<input type="text" placeholder="Username" name="userid"><br>
+				<input type="password" placeholder="Password" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+</form>
+</body>
+</html>
+					</div>
+		</div>
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<title>Login</title>
+	<link href="css/login.css" type="text/css" rel="stylesheet">
+	<link rel="shortcut icon" type="image/png" href="images/upper.png">
+
+</head>
+<body oncontextmenu="return false">
+		<div class="header">
+			<div>E-<span>sport</span></div>
+		</div>
+		<br>
+<form name="login">
+		<div class="login">
+				<input type="text" placeholder="Username" name="userid" required><br>
+				<input type="password" placeholder="Password" name="pswrd" required><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+</form>
+
+<script language="javascript">
+function check(form)
+{
+ 
+ if(form.userid.value == "nemanja" && form.pswrd.value == "12345")
+  {
+    window.location.assign('file:///C:/Users/pc/OneDrive/Radna%20povr%C5%A1ina/Nemanja%20Stanojkovic/index.html')
+  }
+  else if(form.userid.value == "" && form.pswrd.value == "")
+  {
+	alert("Niste uneli username i/ili password !")
+  }
+ else
+ {
+   alert("Pogresan username i/ili password !")
+  }
+}
+</script>
+<div id="footer">
+Copyright &copy Nemanja Stanojkovic
+</div>
+</body>
+</html>
